@@ -1,0 +1,121 @@
+.logo {
+    height: 75px;
+    /* background-color: aqua; */
+    margin-left: 30px;
+    border-radius: 50%;
+    margin: 0 30px;
+}
+nav {
+    height: 90px;
+    background: linear-gradient(to right , #204596 , #000000);
+}
+.nav-link {
+    color:  #fff !important;
+    font-size: 20px !important;
+    font-weight: 500;
+}
+
+/* .header-style .cart-container{
+    position: relative;
+}
+.cartCounter {
+    position: absolute;
+    font-size: 11px;
+    top: 25px;
+    right: 115px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: red;
+    
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+.btn-responsive{
+    border: 0 !important;
+    /* background-color: #0c608d; */
+    /* background-color: radial-gradient(to left , #0c608d , rgb(104, 98, 98)) !important; */
+    /* border-radius: 30px 5px ; */
+    /* padding: 10px; */
+    outline: none !important; 
+    box-shadow: none !important;
+}
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #0c608d;
+    display: block;
+    transition: all 0.2s;
+}
+.middle-bar {
+    margin: 5px ;
+}
+.btn-responsive .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10% ;
+}
+.btn-responsive .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity = 0);
+}
+.btn-responsive .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 10% ;
+}
+.btn-responsive.collapsed .top-bar{
+    transform: rotate(0);
+}
+.btn-responsive.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity = 100);
+
+}
+.btn-responsive.collapsed .bottom-bar{
+    transform: rotate(0);
+}
+.btn-responsive.collapsed .toggler-icon{
+    background-color: #0c608d;
+}
+
+.logoutStyle{
+    cursor: pointer;
+}
+.loginStyle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media (max-width:992px) {
+    /* .header-style .cartCounter {
+        top: 2px;
+        left: 27px;
+    } */
+    .small-style{
+        width: 100% !important;
+        background-color: #000000f8;
+        padding: 20px;
+        border-radius: 20px 50px;
+        z-index: 111;
+    }
+    .sm-sty{
+        margin-bottom: 15px;
+    }
+    .loginStyle {
+        height: 25vh;
+        /* background-color: aqua; */
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .sm-view-mar{
+        margin: 0 !important;
+    }
+}

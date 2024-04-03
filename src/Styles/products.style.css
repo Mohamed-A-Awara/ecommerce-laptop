@@ -1,0 +1,65 @@
+.line {
+    border: 1px solid blue !important; 
+    width: 150px !important;
+    margin: 0 auto;
+    margin-bottom: 20px ;
+}
+.prod-crd {
+    transition: 0.5s;
+}
+
+.prod-crd:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.prod-crd {
+    position: relative;
+}
+
+.heart-icon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 5px 0 gray;
+    transform: scale(0.95238, 0.95238);
+}
+
+.heart-icon .favIcon {
+    line-height: 35px;
+}
+
+.red-heart {
+    color: red;
+}
+
+.grey-heart {
+    color: rgb(161, 161, 161);
+}
+.img-wrapper {
+    position: relative;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.prod-crd:hover .img-overlay {
+    opacity: 1;
+}
+.product-body {
+    padding: 15px 0;
+}
