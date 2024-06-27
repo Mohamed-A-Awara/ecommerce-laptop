@@ -42,11 +42,6 @@ function Header( { cartCount , setCartCount , cartItems} ) {
 
 
                     {/* Responsive Button */}
-                    <button className="navbar-toggler btn-responsive collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="toggler-icon top-bar"></span>
-                    <span className="toggler-icon middle-bar"></span>
-                    <span className="toggler-icon bottom-bar"></span>
-                    </button>
 
 
                     <div className="collapse navbar-collapse small-style" id="navbarSupportedContent">
@@ -57,12 +52,12 @@ function Header( { cartCount , setCartCount , cartItems} ) {
                             <li className="nav-item">
                                 <a className="nav-link active" href="/products">Products</a>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a className="nav-link active" href="/products">About</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" href="/products">Contact Us</a>
-                            </li>
+                            </li> */}
                         </ul>
                     <div>                      
                         

@@ -42,7 +42,7 @@ function Login() {
                                     <MdEmail className='icon'/>
                                     <Form.Label htmlFor='email'>  Enter Your Email : </Form.Label>
                                 </div>
-                                <Form.Control type='text' placeholder='mohamed@gmail.com' ref={email} name='email'/> 
+                                <Form.Control type='text' placeholder='' ref={email} name='email'/> 
                                 </div>
                                 <div className='w-100 mt-2' >
                                 <div className='labelIcon'>
