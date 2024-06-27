@@ -42,7 +42,12 @@ function Header( { cartCount , setCartCount , cartItems} ) {
 
 
                     {/* Responsive Button */}
-
+                    {/* Responsive Button */}
+                    <button className="navbar-toggler btn-responsive collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="toggler-icon top-bar"></span>
+                    <span className="toggler-icon middle-bar"></span>
+                    <span className="toggler-icon bottom-bar"></span>
+                    </button>
 
                     <div className="collapse navbar-collapse small-style" id="navbarSupportedContent">
                         <ul className={`navbar-nav  mb-2 mb-lg-0 ${loggedin === "UserAdded" ? "me-auto" : "m-auto"}`}>
